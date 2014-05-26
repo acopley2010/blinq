@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: $gutter-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 100;
+  line-height: $base-line-height;
+}
+
+a {
+  color: #449ad7;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $main-color;
+  font-weight: 600;
+  text-align: center;
+}
+
+.main {
+  background-color: #fff;
+}
+
+header {
+  position: relative;
+}

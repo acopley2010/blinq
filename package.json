@@ -1,0 +1,19 @@
+{
+  "name": "blinq_site",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/awanderingorill/blinq_site.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-bower-files": "^0.2.2",
+    "gulp-clean": "^0.2.4",
+    "gulp-csscomb": "^0.1.0",
+    "gulp-load-plugins": "^0.5.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-util": "^2.2.14"
+  }
+}

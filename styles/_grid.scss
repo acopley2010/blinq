@@ -1,0 +1,39 @@
+.grid {
+  display: block;
+  font-size: 0;
+  margin: 0 0 0 (-$col-gutter);
+  max-width: $container;
+  padding: 0;
+  text-align: left;
+
+  &:not(.nested) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  > .grid {
+    margin: 0;
+  }
+}
+
+.grid--colsCenter {
+  text-align: center;
+}
+
+.grid--colsRight {
+  text-align: right;
+}
+
+.grid-col {
+  display: inline-block;
+  font-size: $base-font-size;
+  padding-left: $col-gutter;
+  vertical-align: top;
+  width: 100%;
+}
+
+.grid-col--centered {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
